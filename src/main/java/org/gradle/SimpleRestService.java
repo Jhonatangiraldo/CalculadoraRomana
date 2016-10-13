@@ -8,7 +8,7 @@ import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 
 @Path("/service2")
-public class SimpleRestService2 {
+public class SimpleRestService {
 
 	   @GET
 	   @Path("/hola")
