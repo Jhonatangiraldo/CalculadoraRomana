@@ -1,0 +1,18 @@
+
+(jbehave/i_can_toggle_a_cell.story)
+Scenario: 1 -> XV + XI
+Given Ingreso numero XV y numero XI
+When Yo oprimo el boton procesar
+Then Recibo el numero 26
+
+Scenario: 2 -> I + I
+Given Ingreso numero I y numero I
+When Yo oprimo el boton procesar
+Then Recibo el numero 2
+
+Scenario: 3 -> I + IV
+Given Ingreso numero I y numero IV
+When Yo oprimo el boton procesar
+Then Recibo el numero 5
+
+

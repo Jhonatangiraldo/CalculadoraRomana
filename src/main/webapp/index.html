@@ -8,13 +8,11 @@
   </head>
    <body ng-controller="StoreController as store">
    	
-   	<input placeholder="Digite aqui su Nombre" ng-model="store.numero1"><br><br>
-    <input placeholder="Digite aqui su salario" ng-model="store.numero2"><br><br>
+   	<input id="numero1" placeholder="Digite aqui su Nombre" ng-model="store.numero1"><br><br>
+    <input id="numero2" placeholder="Digite aqui su salario" ng-model="store.numero2"><br><br>
     
-    <button class="widget" ng-click="store.consultar()" >Consultar</button><br><br>
-
-      	<div ng-show="store.mostrarDatos">
-      		 {{store.contenido}}
-      	</div>
+    <button id="boton" class="widget" ng-click="store.consultar()" >Consultar</button><br><br>
+    <br>
+    <input id="resultado" readonly ng-model="store.resultado">
   </body>
 </html>
