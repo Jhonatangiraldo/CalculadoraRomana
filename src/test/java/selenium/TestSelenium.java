@@ -12,7 +12,7 @@ public class TestSelenium {
 	@Test
 	public void test1(){
 		FirefoxDriver driver = new FirefoxDriver();
-	      driver.get("http://localhost:8080/ProjectNormal/index.html");
+	      driver.get("http://localhost:8090/CalculadoraRomana/index.html");
 	      WebElement numero1 = driver.findElement(By.id("numero1"));
 	      numero1.sendKeys("X");
 	      WebElement numero2 = driver.findElement(By.id("numero2"));
@@ -27,7 +27,7 @@ public class TestSelenium {
 	@Test
 	public void test2(){
 		FirefoxDriver driver = new FirefoxDriver();
-	      driver.get("http://localhost:8080/ProjectNormal/index.html");
+	      driver.get("http://localhost:8090/CalculadoraRomana/index.html");
 	      WebElement numero1 = driver.findElement(By.id("numero1"));
 	      numero1.sendKeys("I");
 	      WebElement numero2 = driver.findElement(By.id("numero2"));
@@ -42,7 +42,7 @@ public class TestSelenium {
 	@Test
 	public void test3(){
 		FirefoxDriver driver = new FirefoxDriver();
-	      driver.get("http://localhost:8080/ProjectNormal/index.html");
+	      driver.get("http://localhost:8090/CalculadoraRomana/index.html");
 	      WebElement numero1 = driver.findElement(By.id("numero1"));
 	      numero1.sendKeys("L");
 	      WebElement numero2 = driver.findElement(By.id("numero2"));

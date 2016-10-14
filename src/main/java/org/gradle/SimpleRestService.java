@@ -17,4 +17,12 @@ public class SimpleRestService {
 		   Principal principal = new Principal(numero1, numero2);
 		   return principal.devuelta();
 	   }
+	   
+	   
+	   @GET
+	   @Path("/hola2")
+	   @Produces(MediaType.TEXT_PLAIN)
+	   public String sdf(){
+		   return "Holaa";
+	   }
 }
